@@ -1,40 +1,59 @@
 import React from "react";
 import styles from "./navbar.module.css";
+import Image from "next/image";
 
 function Navbar() {
   const links = [
     {
       id: 1,
       title: "Home",
+      url: "/"
     },
     {
       id: 2,
-      title: "Portfolio",
+      title: "Servises",
+      url: "/servises"
     },
     {
       id: 3,
-      title: "Blog",
+      title: "Case",
+      url: "/case"
     },
     {
       id: 4,
-      title: "About",
+      title: "DaCode Specialists",
+      url: "/specialists"
     },
     {
       id: 5,
-      title: "Contact",
+      title: "Blog",
+      url: "/blog"
     },
     {
-      id: 6,
-      title: "Dashboard",
-    },
+      id: 5,
+      title: "Request a queto"
+    }
   ];
 
   return (
     <div className={styles.container}>
-      <div>Main</div>
-      <div className={styles.links}>
+      <links href="/" className={styles.logoWrapper}>
+        <div className={styles.logo}>
+          <Image
+            src="/logo 1.png"
+            width={200}
+            height={25}
+            className={styles.logo}
+            alt="x"
+          />
+        </div>
+      </links>
+      
+      <div className={styles.nav}>
         {links.map((link) => (
-          <div>{link.title}</div>
+          <div className={styles.link} >
+            <a href={link.url}>{link.title}</a>
+          </div>
         ))}
       </div>
     </div>

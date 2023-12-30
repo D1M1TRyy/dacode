@@ -1,11 +1,49 @@
 .container {
+  width: 80%;
+  margin: auto;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.links {
+.logoWrapper{
+  cursor: pointer;
+}
+.logoWrapper:hover{
+  scale: 1.1;
+}
+.nav {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
+.link a{
+  color: #60E1CB;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  padding: 13px 20px;
+  border-radius: 26px;
+  cursor: pointer;
+  transition: .3s;
+}
+.link a:hover{
+  background-color: #7BC0E3;  
+  color: #fff;
+}
+.link:nth-last-child(1) a{
+  background-color: #7BC0E3;
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+}
+.link:nth-last-child(1):hover a{
+  background-color: #60E1CB;
+}
+
+
+
