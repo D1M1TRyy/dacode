@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+main .offer{
+    background-image: url(/footerBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #60E1CB;
+}
+main .offer .wrapper{
+    padding: 140px 0 240px 0;
+}
+main .offer .wrapper .title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    margin-bottom: 40px;
+}
+main .offer .wrapper .text{
+    width: 34%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+}
+main .ourServices{
+  position: relative;
+  bottom: 80px;
+  background-color: #E9FBF8;
+  width: 90%;
+  margin: auto;
+  border-radius: 50px;
+  }
+  main .ourServices .mainName{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+  main .ourServices .aboutService{
+    width: 40%;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+  main .ourServices .container{
+    width: 62%;
+    margin: auto;
+    margin-top: 90px;
+  }
+  main .ourServices .container .wrapper .row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+  }
+  main .ourServices .container .wrapper .row .card{
+    width: 30%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top: 5px solid #60E1CB;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 2px 7px 1px ;
+    padding: 90px 25px 40px 25px;
+  }
+  main .ourServices .container .wrapper .row .card .pic{
+    display: flex;
+  }
+  main .ourServices .container .wrapper .row .card .pic .img1{
+    width: 45px;
+    height: 45px;
+    background-image: url(/web-site.png);
+  }
+  main .ourServices .container .wrapper .row .card .pic .img2{
+    width: 45px;
+    height: 45px;
+    background-image: url(/wordpress.png);
+  }
+  main .ourServices .container .wrapper .row .card .pic .img3{
+    width: 45px;
+    height: 45px;
+    background-image: url(/web-design.png);
+  }
+  main .ourServices .container .wrapper .row .card .pic .img4{
+    width: 45px;
+    height: 45px;
+    background-image: url(/magnifying-glass.png);
+  }
+  main .ourServices .container .wrapper .row .card .pic .img5{
+    width: 45px;
+    height: 45px;
+    background-image: url(/startup.png);
+  }
+  main .ourServices .container .wrapper .row .card .pic .img6{
+    width: 45px;
+    height: 45px;
+    background-image: url(/layers.png);
+  }
+  main .ourServices .container .wrapper .row .card .pic .ring{
+    padding: 24px;
+    border-radius: 50%;
+    background-color: #60E1CB;
+    opacity: 20%;
+    position: relative;
+    right: 55px;
+    bottom: 13px;
+  }
+  main .ourServices .container .wrapper .row .card .title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  main .ourServices .container .wrapper .row .card .text{
+    font-size: 13px;
+  }
+  main .ourServices .container .wrapper .row .card .link{
+    padding-top: 20px;
+    /* font-size: 13px; */
+  }
+  main .ourServices .container .wrapper .row .card .link a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #7BC0E3;
+  }
+  main .invitation{
+    width: 100%;
+    height: 460px;
+    background-image: url(/backgroundPic.png);
+    background-size: cover;
+}
+main .invitation .title{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+main .invitation .text{
+    text-align: center;  
+    font-family: 'Raleway', sans-serif;
+}
+main .invitation .sign{
+    width: 100%;
+}
+main .invitation .sign button{
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    padding-bottom: 300px;
+    padding: 15px 35px;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0px 46px 52px  #36B8A2;
+    cursor: pointer;
+    background-color: #000;
+}
+main .invitation .sign button a{
+    text-decoration: none;
+    color: #fff;
+}
+main .schedule .wrapper{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 160px 0;
+}
+main .schedule .textArea{
+  width: 46%;
+}
+main .schedule .textArea .title {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+main .schedule .textArea .texts{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .schedule .textArea .texts p{
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 0px 4px 4px #0000004e;
+}
+main .schedule .wrapper .scheduleTable{
+  width: 46%;
+}
+main .schedule .wrapper .scheduleTable .title{
+  font-family: 'Raleway', sans-serif;
+  color: #60E1CB;
+  text-shadow: 0 4px 4px #00000041;
+  margin-bottom: 30px;
+}
+main .schedule .wrapper .scheduleTable .pic{
+  width: 100%;
+  height: 500px;
+  flex: 1;
+  position: relative;
+}
+main .schedule .wrapper .scheduleTable .pic .schedule{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 60px 56px -14px #cfd3d1;
+  position: absolute;
+  object-fit: contain;
+}
