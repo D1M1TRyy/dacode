@@ -3,7 +3,6 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 
 
-
 function Footer() {
   return (
     <div className={styles.container}>
@@ -74,8 +73,7 @@ function Footer() {
             <h3><a href="">IG</a></h3>
           </div>
         </div>
-      </div>
-     
+      </div>    
     </div>
   );
 }
