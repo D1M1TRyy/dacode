@@ -1,6 +1,172 @@
-.container {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+.about{
+  width: 90%;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.textArea{
+  width: 40%;
+  height: 370px;
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blueLine{
+  width: 5rem;
+  border-top: 3px solid #7BC0E3;
+  box-shadow: 0px 2px 4px #7BC0E3;
+}
+.title{
+  width: 85%;
+  font-size: x-large;
+  font-family: 'Raleway', sans-serif;
+}
+.title b{
+  color: #60E1CB;
+}
+.text p{
+  font-size: medium;
+  font-family: 'Raleway', sans-serif;
+}
+.textArea .buttons{
+  display: flex;
+}
+.textArea .buttons a{
+  cursor: pointer;
+}
+.textArea .buttons button{
+  font-size: large;
+  font-family: 'Raleway', sans-serif;
+  padding: 18px 37px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.textArea .buttons .first{
+  background-color: #60E1CB;
+  color: white;
+  border: none;
+  box-shadow: #60E1CB 0px 30px 40px;
+  margin-right: 30px;
+}
+ .second{
+  background-color: white;
+  color: #60E1CB;
+  border: #626075 1px solid ;
+}
+main .about .pic{
+  width: 500px;
+  flex: 1;
+  height: 650px;
+  position: relative;
+  left: 50px;
+  bottom: 80px;
+}
+.image{
+  width: 400px;
+  object-fit: contain;
+  position: absolute;
+}
+main .ourServices{
+  background-color: #E9FBF8;
+}
+main .ourServices .mainName{
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+main .ourServices .aboutService{
+  width: 40%;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+main .ourServices .container{
+  width: 62%;
+  margin: auto;
+  margin-top: 90px;
+}
+main .ourServices .container .wrapper .row{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+main .ourServices .container .wrapper .row .card{
+  width: 30%;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-top: 5px solid #60E1CB;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 1px 2px 7px 1px ;
+  padding: 90px 25px 40px 25px;
+}
+main .ourServices .container .wrapper .row .card .pic{
+  display: flex;
+}
+main .ourServices .container .wrapper .row .card .pic .img1{
+  width: 45px;
+  height: 45px;
+  background-image: url(/web-site.png);
+}
+main .ourServices .container .wrapper .row .card .pic .img2{
+  width: 45px;
+  height: 45px;
+  background-image: url(/wordpress.png);
+}
+main .ourServices .container .wrapper .row .card .pic .img3{
+  width: 45px;
+  height: 45px;
+  background-image: url(/web-design.png);
+}
+main .ourServices .container .wrapper .row .card .pic .img4{
+  width: 45px;
+  height: 45px;
+  background-image: url(/magnifying-glass.png);
+}
+main .ourServices .container .wrapper .row .card .pic .img5{
+  width: 45px;
+  height: 45px;
+  background-image: url(/startup.png);
+}
+main .ourServices .container .wrapper .row .card .pic .img6{
+  width: 45px;
+  height: 45px;
+  background-image: url(/layers.png);
+}
+main .ourServices .container .wrapper .row .card .pic .ring{
+  padding: 24px;
+  border-radius: 50%;
+  background-color: #60E1CB;
+  opacity: 20%;
+  position: relative;
+  right: 55px;
+  bottom: 13px;
+}
+main .ourServices .container .wrapper .row .card .title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+main .ourServices .container .wrapper .row .card .text{
+  font-size: 13px;
+}
+main .ourServices .container .wrapper .row .card .link{
+  padding-top: 20px;
+  /* font-size: 13px; */
+}
+main .ourServices .container .wrapper .row .card .link a{
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: #7BC0E3;
+}
