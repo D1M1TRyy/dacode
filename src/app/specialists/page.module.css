@@ -1,0 +1,92 @@
+main .about{
+    background-image: url(/backgroundPic.png);
+    background-color: #60E1CB;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .about .wrapper{
+    padding: 140px 0 160px 0;
+}
+main .about .wrapper .title{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+main .about .wrapper .text{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+main .serviceTeam .container{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+}
+main .serviceTeam .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+main .serviceTeam .container .row:nth-child(1){
+    margin-bottom: 70px;
+}
+main .serviceTeam .container .row:nth-child(2){
+    margin-bottom: 70px;
+}
+main .serviceTeam .container .row .card{
+    width: 22%;
+    padding: 20px 15px;
+    box-shadow: 0 4px 4px 5px #00000036;
+    background-color: #fff;
+    border-radius: 13px;
+}
+main .serviceTeam .container .row .card .pic .elipse{
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: #60e1cb57;
+}
+main .serviceTeam .container .row .card .textArea .title{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+main .serviceTeam .container .row .card .textArea .text{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: small;
+    color: #60E1CB;
+    padding-bottom: 10px;
+}
+main .serviceTeam .container .row .card .socialLinks .linkedin{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #60e1cb59;
+    box-shadow: 0 4px 4px 0 #00000051;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+main .serviceTeam .container .row .card .socialLinks .button{
+    display: flex;
+    justify-content: space-between;
+}
+main .serviceTeam .container .row .card .socialLinks button{
+    text-align: center;
+    padding: 13px 30px;
+    border-radius: 30px;
+    background-color: #60E1CB;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    cursor: pointer;
+}
