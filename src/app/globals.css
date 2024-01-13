@@ -4,3 +4,16 @@
   margin: 0;
 }
 
+.theme {
+  transition: .3s all ease;
+}
+
+.dark {
+  background-color: #111;
+  color: #bbb;
+}
+
+.light {
+  background-color: white;
+  color: #111;
+}
